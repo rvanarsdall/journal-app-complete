@@ -1,0 +1,8 @@
+to START your server type the word nodemon in terminal.
+
+Example endpoints.
+
+the url http://localhost:3000/test/
+
+test is the endpoint and in code it will look like this
+
