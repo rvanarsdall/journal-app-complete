@@ -39,7 +39,7 @@ router.post("/login", function (req, res) {
               sessionToken: token,
             });
           } else {
-            res.status(502).send({ error: "Login Failed" });
+            res.status(502).json({ error: "Login Failed" });
           }
         });
       } else {

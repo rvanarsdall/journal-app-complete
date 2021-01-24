@@ -1,4 +1,3 @@
-const { Router } = require("express");
 let express = require("express");
 let router = express.Router();
 const validateSession = require("../middleware/validate-session");
